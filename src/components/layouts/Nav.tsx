@@ -8,7 +8,7 @@ export const links = [
     { name: 'services', path: '/services' },
     { name: 'resume', path: '/resume' },
     { name: 'work', path: '/work' },
-    { name: 'contact', path: '/contact' },
+    // { name: 'contact', path: '/contact' },
 ]
 
 const Nav = () => {
