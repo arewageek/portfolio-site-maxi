@@ -54,7 +54,7 @@ const projects = [
 const Work = () => {
     const [work, setWork] = useState(projects[0])
 
-    const handleSlideChange = (swiper) => {
+    const handleSlideChange = (swiper: any) => {
         const currentIndex = swiper.activeIndex
 
         setWork(projects[currentIndex])

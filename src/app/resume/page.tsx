@@ -14,23 +14,23 @@ const about = {
     info: [
         {
             name: "Name",
-            val: "Arewa Geek"
+            val: "Samuel Obed Kpadji"
         },
         {
             name: "Phone",
-            val: "(+40) 321 654 678"
+            val: "+234 814-334-7721"
         },
         {
             name: "Email",
-            val: "arewageek@gmal.com"
+            val: "kpadjisamuel@gmail.com"
         },
         {
             name: "Experience",
-            val: "5+ Years"
+            val: "6+ Years"
         },
         {
             name: "Discord",
-            val: "@arewaofweb3"
+            val: "@Exokoz"
         },
         {
             name: "Nationality",
@@ -42,7 +42,7 @@ const about = {
         },
         {
             name: 'Languages',
-            val: 'English'
+            val: ' English, Hausa'
         }
     ]
 }
@@ -50,28 +50,53 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My experience',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam eos aut id facere mollitia, pariatur amet! In, aliquid minus repellat dicta non sed culpa possimus vel ",
+    description: "I’m a well versed Defi expert  - I advice projects and bring their real worth",
     items: [
         {
-            company: "Skytech Integrated Network Limited",
-            position: "Software Developer & Tutor",
-            duration: "2022 - 2023",
+            company: "$PUTON",
+            position: "Raider",
+            duration: "2024",
         },
         {
-            company: "Borbbles Inc",
-            position: "Lead Web Developer",
-            duration: "2021 - 2022",
+            company: "Solcoon",
+            position: "Project Advisor",
+            duration: "2024",
         },
         {
-            company: "MIS, ITS, FUT Minna",
-            position: "Front-End Developer Intern",
-            duration: "2023 - 2024",
+            company: "$GENA",
+            position: "Community Moderator",
+            duration: "2024",
         },
         {
-            company: "Phlamingos NFT",
-            position: "Full Stack Blockchain Engineer",
-            duration: "2024 - Present",
-        }
+            company: "$NELLY",
+            position: "Raider",
+            duration: "2024",
+        },
+        {
+            company: "$MERICA",
+            position: "project advisor",
+            duration: "2024",
+        },
+        {
+            company: "$MCD",
+            position: "Shiller",
+            duration: "2024",
+        },
+        {
+            company: "$HOMER",
+            position: "Shiller",
+            duration: "2024",
+        },
+        {
+            company: "$ROSAI",
+            position: "Community Moderator",
+            duration: "2022",
+        },
+        {
+            company: "$IBIT",
+            position: "Shiller",
+            duration: "2022",
+        },
     ]
 }
 
@@ -81,9 +106,9 @@ const education = {
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam eos aut id facere mollitia, pariatur amet! In, aliquid minus repellat dicta non sed culpa possimus vel ",
     items: [
         {
-            institution: "Federal University of Technology Minna",
-            degree: "Electrical Electronic Engineering",
-            duration: "2022 - 2023",
+            institution: "Nasarawa State University, Keffi",
+            degree: "BSC computer science",
+            duration: "2018 - 2024",
         },
     ]
 }
@@ -149,7 +174,7 @@ const Resume = () => {
                     <TabsList className="flex flex-col w-full max-w-[380px] mx-auto gap-6">
                         <TabsTrigger value="experience">Experience</TabsTrigger>
                         <TabsTrigger value="education">Education</TabsTrigger>
-                        <TabsTrigger value="skills">Skills</TabsTrigger>
+                        {/* <TabsTrigger value="skills">Skills</TabsTrigger> */}
                         <TabsTrigger value="resume">About Me</TabsTrigger>
                     </TabsList>
 

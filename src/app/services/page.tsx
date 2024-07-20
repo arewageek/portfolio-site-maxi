@@ -4,11 +4,12 @@ import { ArrowDownRight, ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 
 const services = [
-    { num: '01', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '02', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '03', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '04', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '05', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '01', title: 'Content Strategist', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '02', title: 'Project Advisor', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '03', title: 'Shiller/Raider', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '04', title: 'Community Manager', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '05', title: 'Moderator', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '06', title: 'Meme Artist', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
 ]
 
 const Services = () => {
@@ -35,7 +36,7 @@ const Services = () => {
                             <h2 className='text-[42px] font-bold leading-none text-white group-hover:text-accent-hover transition-all duration-500'>
                                 {service.title}
                             </h2>
-                            <p className='text-white/60'>
+                            <p className='text-white'>
                                 {service.description}
                             </p>
                             <div className='border-b border-white/20 w-full'></div>
