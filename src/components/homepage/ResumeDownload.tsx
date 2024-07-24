@@ -7,7 +7,8 @@ import { Download } from 'lucide-react'
 const ResumeDownload = () => {
 
     const downloadResume = () => {
-        resumePath = ''
+        const resumePath = '/assets/cudy/cudyresume.png'
+        window.open(resumePath)
     }
 
     return (
