@@ -27,15 +27,15 @@ const Photo = () => {
                             duration: 0.4,
                             ease: 'easeInOut'
                         }
-                    }} className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'
+                    }} className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute items-center'
                 >
                     <Image
-                        src="/assets/photo.png"
+                        src="/assets/cudy/cudy.png"
                         priority
                         quality={100}
                         fill
                         alt=""
-                        className="object-contain"
+                        className="object-contain rounded-full p-3"
                     />
                 </motion.div>
 
@@ -46,10 +46,10 @@ const Photo = () => {
                     xmlns={'http://www.w3.org/2000/svg'}
                 >
                     <motion.circle
-                        cx="253"
-                        cy="253"
+                        cx="250"
+                        cy="250"
                         r="250"
-                        stroke={'#00ff99'}
+                        stroke={'#20a7db'}
                         strokeWidth={'4'}
                         strokeLinecap={'round'}
                         strokeLinejoin={'round'}
