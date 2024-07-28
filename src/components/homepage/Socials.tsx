@@ -3,7 +3,7 @@ import Link from "next/link"
 import { FaDiscord, FaTelegram, FaTwitter } from 'react-icons/fa'
 
 const socialHandles = [
-    { icon: <FaDiscord />, path: '' },
+    { icon: <FaDiscord />, path: 'https://discordapp.com/user/1068669098881458187' },
     { icon: <FaTwitter />, path: 'https://x.com/cudyweb3' },
     { icon: <FaTelegram />, path: 'https://t.me/Cudyweb3' },
 ]
