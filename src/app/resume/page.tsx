@@ -7,10 +7,11 @@ import { TabsContent } from "@radix-ui/react-tabs"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Tooltip, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { TooltipContent } from "@radix-ui/react-tooltip"
+import { FaDatabase, FaFlask, FaJs, FaLaravel, FaNodeJs, FaPhp, FaPython, FaReact } from 'react-icons/fa'
 
 const about = {
     title: 'About me',
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, molestiae sunt voluptatibus reiciendis libero",
+    description: "I'm a quite introvert guy who loves to learn, write, and research on some boring stuff 😅. I love to explore and try out new things even though they seem crazy",
     info: [
         {
             name: "Name",
@@ -18,7 +19,7 @@ const about = {
         },
         {
             name: "Phone",
-            val: "(+40) 321 654 678"
+            val: "(+234) 913 545 1501"
         },
         {
             name: "Email",
@@ -50,7 +51,7 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My experience',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam eos aut id facere mollitia, pariatur amet! In, aliquid minus repellat dicta non sed culpa possimus vel ",
+    description: "Being an experienced and goal oriented software developer. I love to solve real-live challenges and contribute to applications that simplifies processes for businesses and users",
     items: [
         {
             company: "Skytech Integrated Network Limited",
@@ -78,7 +79,7 @@ const experience = {
 const education = {
     icon: '/assets/resume/cap.svg',
     title: 'My education',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam eos aut id facere mollitia, pariatur amet! In, aliquid minus repellat dicta non sed culpa possimus vel ",
+    description: "Coming from an Electrical Engineering major, I have gone a long way in building myself and my career to enable me grow and scale rapidly in the Software and Blockchain Engineering space",
     items: [
         {
             institution: "Federal University of Technology Minna",
@@ -90,45 +91,45 @@ const education = {
 
 const skills = {
     title: "My Skills",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia blanditiis vero fuga fugit tenetur earum culpa aut ea voluptates reiciendis hic",
+    description: "I am a passionate learner who loves to solve problems that affect businesses and it's users. I have grown faster and learnt more from solving problems and challenging myself on really complex tasks",
     skillset: [
         {
-            icon: <Code />,
+            icon: <FaReact />,
             name: "React"
         },
 
         {
-            icon: <Code />,
-            name: "React"
+            icon: <FaNodeJs />,
+            name: "Node JS"
         },
 
         {
-            icon: <Code />,
-            name: "React"
+            icon: <FaJs />,
+            name: "Java Script"
         },
 
         {
-            icon: <Code />,
-            name: "React"
+            icon: <FaPhp />,
+            name: "PHP"
         },
         {
-            icon: <Code />,
-            name: "React"
-        },
-
-        {
-            icon: <Code />,
-            name: "React"
+            icon: <FaLaravel />,
+            name: "Laravel"
         },
 
         {
-            icon: <Code />,
-            name: "React"
+            icon: <FaPython />,
+            name: "Python"
         },
 
         {
-            icon: <Code />,
-            name: "React"
+            icon: <FaFlask />,
+            name: "Flask"
+        },
+
+        {
+            icon: <FaDatabase />,
+            name: "Database Management"
         },
     ]
 }
