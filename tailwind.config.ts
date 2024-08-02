@@ -59,10 +59,10 @@ const config = {
         //   foreground: "hsl(var(--card-foreground))",
         // },
 
-        primary: "#1c1c22",
+        primary: "#101013",
         accent: {
-          DEFAULT: "#00ff99",
-          hover: "#00e187",
+          DEFAULT: "rgb(185, 86, 253)",
+          hover: "rgba(185, 86, 253, 200)",
         },
       },
       borderRadius: {

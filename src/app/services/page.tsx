@@ -4,9 +4,9 @@ import { ArrowDownRight, ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 
 const services = [
-    { num: '01', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '02', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '03', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '01', title: 'Smart Contract Development', description: 'I write secure, high-performance smart contracts for EVM and TON blockchains. My expertise lies in designing, developing, and auditing contracts to ensure reliability and efficiency.', href: '#' },
+    { num: '02', title: 'Telegram MiniApps Development', description: 'I create engaging and user-friendly Telegram mini-apps for a diverse range of projects, including DeFi, gaming, airdrops, waitlists, and portfolios. I transform complex ideas into seamless in-app experiences.', href: '#' },
+    { num: '03', title: 'Telegram Bots Development', description: ' build high-performance Telegram bots tailored to your specific needs. From trading sniping tools to automated airdrop participation, I deliver efficient and reliable bot solutions.', href: '#' },
     { num: '04', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
     { num: '05', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
 ]
