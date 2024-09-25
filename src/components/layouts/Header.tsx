@@ -16,7 +16,7 @@ const Header = () => {
 
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
-                    <Link href="https://x.com/KillmongerNFT">
+                    <Link href="https://x.com/KillmongerNFT/">
                         <Button className='bg-accent hover:bg-accent-hover transition rounded-full px-5 py-1 text-black'>
                             Hire me
                         </Button>
