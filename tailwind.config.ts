@@ -61,8 +61,8 @@ const config = {
 
         primary: "#101013",
         accent: {
-          DEFAULT: "rgb(185, 86, 253)",
-          hover: "rgba(185, 86, 253, 200)",
+          DEFAULT: "#f5eaae",
+          hover: "#e5bc77",
         },
       },
       borderRadius: {

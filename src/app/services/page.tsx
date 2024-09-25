@@ -4,11 +4,11 @@ import { ArrowDownRight, ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 
 const services = [
-    { num: '01', title: 'Smart Contract Development', description: 'I write secure, high-performance smart contracts for EVM and TON blockchains. My expertise lies in designing, developing, and auditing contracts to ensure reliability and efficiency.', href: '#' },
-    { num: '02', title: 'Telegram MiniApps Development', description: 'I create engaging and user-friendly Telegram mini-apps for a diverse range of projects, including DeFi, gaming, airdrops, waitlists, and portfolios. I transform complex ideas into seamless in-app experiences.', href: '#' },
-    { num: '03', title: 'Telegram Bots Development', description: ' build high-performance Telegram bots tailored to your specific needs. From trading sniping tools to automated airdrop participation, I deliver efficient and reliable bot solutions.', href: '#' },
-    { num: '04', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
-    { num: '05', title: 'Web Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, eligendi esse reprehenderit est voluptas soluta vitae consequatur, iusto ', href: '#' },
+    { num: '01', title: 'Organize Collaborations', description: 'Oversee and execute joint projects, campaigns, and initiatives to drive mutual growth and community engagement.', href: '#' },
+    { num: '02', title: 'Build Partnerships', description: 'Searching for and establishing strategic partnerships with complementary NFT or Web3 projects. This involves identifying potential synergies, negotiating terms, and drafting partnership agreements.', href: '#' },
+    { num: '03', title: 'Plan and Execute Collabs', description: 'Developing and implementing joint marketing campaigns, giveaways, and other collaborative initiatives to engage communities and drive mutual growth.', href: '#' },
+    { num: '04', title: 'Manage & Growth Community', description: 'Fostering a strong and engaged community through collaborative efforts, such as cross-promotions, joint events, and shared content.', href: '#' },
+    { num: '05', title: 'Relationship Management', description: 'Building and maintaining strong relationships with partner projects, ensuring smooth collaboration and resolving any issues that may arise.', href: '#' },
 ]
 
 const Services = () => {
