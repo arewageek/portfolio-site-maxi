@@ -1,37 +1,36 @@
 "use client"
 
-import { Code } from "lucide-react"
+import { Bolt, Code, Group, ListCheck, LucideLink } from "lucide-react"
 import { motion } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { TabsContent } from "@radix-ui/react-tabs"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Tooltip, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { TooltipContent } from "@radix-ui/react-tooltip"
-import { FaDatabase, FaFlask, FaJs, FaLaravel, FaNodeJs, FaPhp, FaPython, FaReact } from 'react-icons/fa'
+// import { Tooltip, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
+// import { TooltipContent } from "@radix-ui/react-tooltip"
 
 const about = {
     title: 'About me',
-    description: "I'm a quite introvert guy who loves to learn, write, and research on some boring stuff 😅. I love to explore and try out new things even though they seem crazy",
+    description: "I'm a Collab Manager with vast Experience in the Space , I would love to impart my skills in your project , and help make your project a huge Success.",
     info: [
         {
             name: "Name",
-            val: "Arewa Geek"
-        },
-        {
-            name: "Phone",
-            val: "(+234) 913 545 1501"
+            val: "Xammie Xane"
         },
         {
             name: "Email",
-            val: "arewageek@gmal.com"
+            val: "xammie@gmail.com"
         },
         {
             name: "Experience",
-            val: "5+ Years"
+            val: "4+ Years"
         },
         {
             name: "Discord",
-            val: "@arewaofweb3"
+            val: "@KillmongerNFT"
+        },
+        {
+            name: "Telegram",
+            val: "xammiexane"
         },
         {
             name: "Nationality",
@@ -44,92 +43,78 @@ const about = {
         {
             name: 'Languages',
             val: 'English'
-        }
+        },
     ]
 }
 
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My experience',
-    description: "Being an experienced and goal oriented software developer. I love to solve real-live challenges and contribute to applications that simplifies processes for businesses and users",
+    description: "I've contributed to many community based projects, worked with a couple of them, and have helped this communities gain valuable attention and support",
     items: [
         {
-            company: "Skytech Integrated Network Limited",
-            position: "Software Developer & Tutor",
-            duration: "2022 - 2023",
+            company: "Owlto_Finance",
+            position: "Ambassador",
+            duration: "2024",
         },
         {
-            company: "Borbbles Inc",
-            position: "Lead Web Developer",
-            duration: "2021 - 2022",
+            company: "ArkhamIntel",
+            position: "Affiliate",
+            duration: "2024",
         },
         {
-            company: "MIS, ITS, FUT Minna",
-            position: "Front-End Developer Intern",
+            company: "Nftwhistledown",
+            position: "Collab Manager",
             duration: "2023 - 2024",
         },
         {
-            company: "Phlamingos NFT",
-            position: "Full Stack Blockchain Engineer",
-            duration: "2024 - Present",
-        }
+            company: "Readers DAO",
+            position: "Collab Manager",
+            duration: "2023 - 2024",
+        },
+        {
+            company: "Swisstronik",
+            position: "Ambassador",
+            duration: "2023 - 2024",
+        },
     ]
 }
 
 const education = {
     icon: '/assets/resume/cap.svg',
     title: 'My education',
-    description: "Coming from an Electrical Engineering major, I have gone a long way in building myself and my career to enable me grow and scale rapidly in the Software and Blockchain Engineering space",
+    description: "Spending valuable time in this esteemed institution has helped me gain valuable experiences and build on my work ethics",
     items: [
         {
             institution: "Federal University of Technology Minna",
-            degree: "Electrical Electronic Engineering",
-            duration: "2022 - 2023",
+            degree: "Electrical Engineering",
+            duration: "2024",
         },
     ]
 }
 
 const skills = {
     title: "My Skills",
-    description: "I am a passionate learner who loves to solve problems that affect businesses and it's users. I have grown faster and learnt more from solving problems and challenging myself on really complex tasks",
+    description: "Being a person that invests a lot into his learning, I have poured a lot of energy into acquiring valuable skills for my niche",
     skillset: [
         {
-            icon: <FaReact />,
-            name: "React"
+            icon: <ListCheck />,
+            name: "Multitasking"
         },
 
         {
-            icon: <FaNodeJs />,
-            name: "Node JS"
+            icon: <Group />,
+            name: "Team Work"
         },
 
         {
-            icon: <FaJs />,
-            name: "Java Script"
+            icon: <Bolt />,
+            name: "Hard Work"
         },
 
         {
-            icon: <FaPhp />,
-            name: "PHP"
-        },
-        {
-            icon: <FaLaravel />,
-            name: "Laravel"
-        },
-
-        {
-            icon: <FaPython />,
-            name: "Python"
-        },
-
-        {
-            icon: <FaFlask />,
-            name: "Flask"
-        },
-
-        {
-            icon: <FaDatabase />,
-            name: "Database Management"
+            icon: <LucideLink />,
+            name: "Collabs"
         },
     ]
 }
@@ -215,21 +200,11 @@ const Resume = () => {
                                         {skills.description}
                                     </p>
                                 </div>
-                                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px] gap-4">
-                                    {skills.skillset.map((skill, index) => (
-                                        <li key={index}>
-                                            <TooltipProvider delayDuration={100}>
-                                                <Tooltip>
-                                                    <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                                                        <div className="text-6xl group-hover:text-accent duration-30 transition-all ">{skill.icon}</div>
-                                                    </TooltipTrigger>
-                                                    <TooltipContent>
-                                                        <p className="capitalize">
-                                                            {skill.name}
-                                                        </p>
-                                                    </TooltipContent>
-                                                </Tooltip>
-                                            </TooltipProvider>
+                                <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    {skills.skillset.map((skill, _) => (
+                                        <li key={_} className="bg-[#232329] h-[104px] py-6 px-10 rounded-xl flex flex-col justify-center items-center w-full lg:items-start gap-1">
+                                            <span className="text-accent">{skill.icon}</span>
+                                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left flex flex-col items-center justify-center">{skill.name}</h3>
                                         </li>
                                     ))}
                                 </ul>
@@ -237,7 +212,7 @@ const Resume = () => {
                         </TabsContent>
 
                         <TabsContent value="resume" className="w-full container text-center xl:text-left">
-                            <div>
+                            <div className="flex flex-col gap-[30px]">
                                 <h3 className="text-4xl font-bold">
                                     {about.title}
                                 </h3>
@@ -263,4 +238,4 @@ const Resume = () => {
     )
 }
 
-export default Resume
+export default Resume   

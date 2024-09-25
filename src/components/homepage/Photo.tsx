@@ -30,7 +30,7 @@ const Photo = () => {
                     }} className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'
                 >
                     <Image
-                        src="/assets/arewa/arewa.png"
+                        src="/assets/xammie/xammie.jpg"
                         priority
                         quality={100}
                         fill
@@ -49,13 +49,13 @@ const Photo = () => {
                         cx="253"
                         cy="253"
                         r="250"
-                        stroke={'#822df7'}
+                        stroke={'#e5bc77'}
                         strokeWidth={'4'}
                         strokeLinecap={'round'}
                         strokeLinejoin={'round'}
                         initial={{ strokeDasharray: "24 10 0 0" }}
                         animate={{
-                            strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+                            strokeDasharray: ["229 188 119 25", "16 188 92 72", "4 250 119 22"],
                             rotate: [120, 360]
                         }}
                         transition={{
