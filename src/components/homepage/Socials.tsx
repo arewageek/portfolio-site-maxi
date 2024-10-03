@@ -1,10 +1,11 @@
 import { Github, Linkedin, Twitter, X } from "lucide-react"
+import { FaDiscord, FaTelegram, FaTelegramPlane } from 'react-icons/fa'
 import Link from "next/link"
 
 const socialHandles = [
-    { icon: <Github />, path: 'https://github.com/arewageek' },
-    { icon: <Twitter />, path: 'https://x.com/arewaofweb3' },
-    { icon: <Linkedin />, path: 'https://www.linkedin.com/in/austin-ameh-a2315b165' },
+    { icon: <Twitter />, path: 'https://x.com/d_onlydiva' },
+    { icon: <FaTelegramPlane />, path: 'https://www.linkedin.com/in/austin-ameh-a2315b165' },
+    // { icon: <FaDiscord />, path: 'https://github.com/arewageek' },
 ]
 
 const Socials = ({ containerStyles, iconStyles }: { iconStyles: string, containerStyles: string }) => {

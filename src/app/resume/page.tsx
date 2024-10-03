@@ -10,27 +10,27 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 
 const about = {
     title: 'About me',
-    description: "I'm a Collab Manager with vast Experience in the Space , I would love to impart my skills in your project , and help make your project a huge Success.",
+    description: "I'm a Community Manager with vast Experience in the Space , I would love to impart my skills in your project , and help make your project a huge Success.",
     info: [
         {
             name: "Name",
-            val: "Xammie Xane"
+            val: "Black Diva"
         },
         {
             name: "Email",
-            val: "xammie@gmail.com"
+            val: "blackdiva@gmail.com"
         },
         {
             name: "Experience",
-            val: "4+ Years"
+            val: "2+ Years"
         },
         {
-            name: "Discord",
-            val: "@KillmongerNFT"
+            name: "Twitter",
+            val: "@d_onlydiva"
         },
         {
             name: "Telegram",
-            val: "xammiexane"
+            val: "pretty_diva"
         },
         {
             name: "Nationality",
@@ -53,29 +53,24 @@ const experience = {
     description: "I've contributed to many community based projects, worked with a couple of them, and have helped this communities gain valuable attention and support",
     items: [
         {
-            company: "Owlto_Finance",
-            position: "Ambassador",
+            company: "Grinch",
+            position: "Commuunity Manager",
             duration: "2024",
         },
         {
-            company: "ArkhamIntel",
-            position: "Affiliate",
+            company: "JoCob&sol",
+            position: "Community Manager",
             duration: "2024",
         },
         {
-            company: "Nftwhistledown",
-            position: "Collab Manager",
-            duration: "2023 - 2024",
+            company: "The Open labs",
+            position: "Community Manager",
+            duration: "2024",
         },
         {
-            company: "Readers DAO",
-            position: "Collab Manager",
-            duration: "2023 - 2024",
-        },
-        {
-            company: "Swisstronik",
-            position: "Ambassador",
-            duration: "2023 - 2024",
+            company: "MJOHamptercoin",
+            position: "Community Manager/Moderator",
+            duration: "2024",
         },
     ]
 }
@@ -134,7 +129,7 @@ const Resume = () => {
                 <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
                     <TabsList className="flex flex-col w-full max-w-[380px] mx-auto gap-6">
                         <TabsTrigger value="experience">Experience</TabsTrigger>
-                        <TabsTrigger value="education">Education</TabsTrigger>
+                        {/* <TabsTrigger value="education">Education</TabsTrigger> */}
                         <TabsTrigger value="skills">Skills</TabsTrigger>
                         <TabsTrigger value="resume">About Me</TabsTrigger>
                     </TabsList>

@@ -30,7 +30,7 @@ const Photo = () => {
                     }} className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'
                 >
                     <Image
-                        src="/assets/xammie/xammie.jpg"
+                        src="/assets/diva/diva.jpeg"
                         priority
                         quality={100}
                         fill
@@ -49,7 +49,7 @@ const Photo = () => {
                         cx="253"
                         cy="253"
                         r="250"
-                        stroke={'#e5bc77'}
+                        stroke={'#c4d4df'}
                         strokeWidth={'4'}
                         strokeLinecap={'round'}
                         strokeLinejoin={'round'}
