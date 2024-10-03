@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const socialHandles = [
     { icon: <Twitter />, path: 'https://x.com/d_onlydiva' },
-    { icon: <FaTelegramPlane />, path: 'https://www.linkedin.com/in/austin-ameh-a2315b165' },
+    { icon: <FaTelegramPlane />, path: 'https://t.me/prettydiva_101' },
     // { icon: <FaDiscord />, path: 'https://github.com/arewageek' },
 ]
 

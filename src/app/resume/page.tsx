@@ -30,7 +30,7 @@ const about = {
         },
         {
             name: "Telegram",
-            val: "pretty_diva"
+            val: "prettydiva_101"
         },
         {
             name: "Nationality",
